@@ -1,0 +1,84 @@
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*color: e68baa*/
+        header{
+            background-color: #409ce3;
+            padding: 0px;
+            height: 45px;
+            color: white;
+        }
+        
+        header h1{
+            text-align: center;
+            margin: auto;
+        
+        }
+
+        span{
+            color: #409ce3;
+        }
+
+        .hr{
+           border: 0.5px solid gray;
+           opacity: 0.3; 
+        }
+        body {
+            background-color: gainsboro;
+            color: gray;
+            padding: 0;
+            margin: 0;
+        } 
+        
+        section{
+            float: right;
+            width: 1100px;
+        }
+
+        aside{
+            float: left;
+            width: 320px;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+          }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+          }
+
+        input{
+            width: 300px;
+            height: 30px;
+            
+        }  
+        
+        .experience, .education, aside{
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        footer{
+            background-color: #409ce3;
+            text-align: center;
+            height: 110px;
+            font-size: small;
+            padding: 5px;
+            color: white;
+        }
+        
+        .footerimg {
+            border-radius: 50%;
+            display: inline;
+        }
